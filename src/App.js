@@ -1,23 +1,72 @@
 import logo from './logo.svg';
 import './App.css';
+import Sidebar from './Sidebar/Sidebar';
+import Content from './Content/Content';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+      <Sidebar 
+    name="Muhammad Rafay"
+    userName="@example"
+    profileImg="https://pbs.twimg.com/profile_images/1454021002757820423/_FmvUluo_400x400.jpg"
+    postConent="Have you claimed your free POAP NFT yet while watching the #Binance live?
+
+Well, all NFTs are fully claimed now for Day 1 but we have good news for you! We still have more POAP to give tomorrow."
+    postImg="https://pbs.twimg.com/media/FcMkT4BacAEbScw?format=jpg&name=4096x4096"
+    />
+      
+      <Content 
+    name="Muhammad Rafay"
+    userName="@example"
+    profileImg="https://pbs.twimg.com/profile_images/1454021002757820423/_FmvUluo_400x400.jpg"
+    postConent="Have you claimed your free POAP NFT yet while watching the #Binance live?
+
+Well, all NFTs are fully claimed now for Day 1 but we have good news for you! We still have more POAP to give tomorrow."
+    postImg="https://pbs.twimg.com/media/FcMkT4BacAEbScw?format=jpg&name=4096x4096"
+    />
+
+<Content 
+    name="Muhammad Rafay"
+    userName="@example"
+    profileImg="https://pbs.twimg.com/profile_images/1454021002757820423/_FmvUluo_400x400.jpg"
+    postConent="Have you claimed your free POAP NFT yet while watching the #Binance live?
+
+Well, all NFTs are fully claimed now for Day 1 but we have good news for you! We still have more POAP to give tomorrow."
+    postImg="https://pbs.twimg.com/media/FcMkT4BacAEbScw?format=jpg&name=4096x4096"
+    />
+
+<Content 
+    name="Muhammad Rafay"
+    userName="@example"
+    profileImg="https://pbs.twimg.com/profile_images/1454021002757820423/_FmvUluo_400x400.jpg"
+    postConent="Have you claimed your free POAP NFT yet while watching the #Binance live?
+
+Well, all NFTs are fully claimed now for Day 1 but we have good news for you! We still have more POAP to give tomorrow."
+    postImg="https://pbs.twimg.com/media/FcMkT4BacAEbScw?format=jpg&name=4096x4096"
+    />
+
+<Content 
+    name="Muhammad Rafay"
+    userName="@example"
+    profileImg="https://pbs.twimg.com/profile_images/1454021002757820423/_FmvUluo_400x400.jpg"
+    postConent="Have you claimed your free POAP NFT yet while watching the #Binance live?
+
+Well, all NFTs are fully claimed now for Day 1 but we have good news for you! We still have more POAP to give tomorrow."
+    postImg="https://pbs.twimg.com/media/FcMkT4BacAEbScw?format=jpg&name=4096x4096"
+    />
+
+<Content 
+    name="Muhammad Rafay"
+    userName="@example"
+    profileImg="https://pbs.twimg.com/profile_images/1454021002757820423/_FmvUluo_400x400.jpg"
+    postConent="Have you claimed your free POAP NFT yet while watching the #Binance live?
+
+Well, all NFTs are fully claimed now for Day 1 but we have good news for you! We still have more POAP to give tomorrow."
+    postImg="https://pbs.twimg.com/media/FcMkT4BacAEbScw?format=jpg&name=4096x4096"
+    />
+      </div>
     </div>
   );
 }

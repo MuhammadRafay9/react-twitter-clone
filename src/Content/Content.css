@@ -1,0 +1,66 @@
+.Content
+{
+    border-bottom: 0.5px solid #e5dfdf;
+    margin-left: 425px;
+    width: 700px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+.header
+{
+    position: fixed;
+}
+
+.Content .Post
+{
+    margin: 5px;
+
+}
+
+.Content .Post .img{
+
+    width: 50px;
+    border-radius: 50px;
+
+}
+.Content .Post .Profile
+{
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.Content .Post .Profile .name
+{
+    font-weight: bold;
+}
+
+.Content .Post .Profile .username
+{
+    margin-left: 5px;
+}
+
+.Content .Icons
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+}
+.Content .Post .PostContent
+{
+    width: 85%;
+    margin-left: 60px;
+    padding-bottom: 15px;
+    margin-top: -27px;
+}
+.Content .Post .PostContent .Postimg
+{
+
+    width: 100%;
+    margin: 10px 0px;
+    max-height: 100%;
+    min-height: 100%;
+
+    
+}
+
