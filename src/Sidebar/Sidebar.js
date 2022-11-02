@@ -8,6 +8,7 @@ let Sidebar = (props) => {
   return (
     <div className="Sidebar">
             <div className="Logo"><FontAwesomeIcon icon={faTwitter} /></div>
+       <div className='abc'>
         <ul className="List">
 
             <li><button className='btn'><span className='Icon'><FontAwesomeIcon icon={faHome} />      </span> <span className='Text'> Home       </span></button></li>
@@ -37,8 +38,8 @@ let Sidebar = (props) => {
 
 
             </div>
-
         </div>
+    </div>
     </div>
   );
 }

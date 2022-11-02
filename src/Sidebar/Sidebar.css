@@ -1,28 +1,28 @@
 .Sidebar
 {
-    position: fixed;
+    /* position: fixed; */
     height: 100%;
     width: 310px;
     border-right: 0.5px solid #e5dfdf;
-
-
+    
+    
 }
 
 .Sidebar
 {
     padding-left: 110px;
     
-
+    
 }
 
 .Sidebar .Logo
 {
-
+    
     color: #1d9bf0;
     font-size: 29px;
     padding-left: 40px;
     padding-top: 10px;
-
+    
 }
 
 .Sidebar  .List
@@ -39,7 +39,7 @@
 
 .Sidebar  .List li .btn
 {
-
+    
     padding: 15px;
     font-size: 22px;
     border: unset;
@@ -49,7 +49,7 @@
 
 .Sidebar  .List li .btn-twitter
 {
-
+    
     padding: 20px;
     font-size: 22px;
     border: unset;
@@ -87,21 +87,18 @@
 
 .Sidebar .Footer
 {
-    position: fixed;
+    /* position: fixed; */
     bottom: 20px;
     width: 280px;
-
-    /* display: flex;
-
-    justify-content: center;
-    align-items: center; */
+    
+    
 }
 
 .Sidebar .Footer:hover
 {
     border-radius: 50px;
     background-color: rgba(15, 20, 25, 0.1);
-
+    
 }
 
 .Sidebar .Footer .Profile 
@@ -135,4 +132,15 @@
 {
     padding-left: 15px;
     font-size: 15px;
-}
+} 
+
+@media screen and ( max-height: 700px ) { 
+
+    .Sidebar .abc
+    {
+        overflow-y: scroll;
+    }
+
+ }
+/*
+*/

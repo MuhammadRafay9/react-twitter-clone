@@ -24,8 +24,9 @@ const db = getFirestore(app);
 
 let Content = (props) => {
   return (
+      <div>
+        
     <div className="Content">
-      
       <div className='Post'>
           <span><img className='img' src={props.profileImg}/></span>  
           <div className='Profile'>
@@ -49,6 +50,7 @@ let Content = (props) => {
           </div>
       </div>  
     </div>
+        </div>
   );
 }
 
